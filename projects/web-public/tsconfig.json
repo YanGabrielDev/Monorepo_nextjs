@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "jsx": "preserve"
+  },
+  "extends": "@repo/tsconfig-commons/base.json",
+  "include": [
+    "next-env.d.ts",
+    ".next/types/**/*.ts",
+    "**/*.ts",
+    "**/*.tsx"
+  ]
+}
